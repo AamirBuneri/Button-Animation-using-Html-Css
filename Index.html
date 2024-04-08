@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Unique Animated Buttons By Aamir Buneri</title>
+<style>
+  /* Gradient Fill Button with Hover Effect */
+  .gradient-btn {
+    background: linear-gradient(45deg, #ff9a9e, #fad0c4);
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .gradient-btn:hover {
+    transform: scale(1.1);
+  }
+
+  /* Fading Border Button */
+  .fading-border-btn {
+    border: 2px solid transparent;
+    color: #333;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: border-color 0.3s ease;
+  }
+
+  .fading-border-btn:hover {
+    border-color: #ff7eb9;
+  }
+
+  /* Shaking Button with Text Change */
+  .shaking-btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+
+  .shaking-btn:hover {
+    animation: shake 0.5s;
+  }
+
+  @keyframes shake {
+    0% { transform: translate(0, 0); }
+    25% { transform: translate(-5px, 0); }
+    50% { transform: translate(5px, 0); }
+    75% { transform: translate(-5px, 0); }
+    100% { transform: translate(0, 0); }
+  }
+</style>
+</head>
+<body>
+
+<button class="gradient-btn">Gradient Button</button>
+<button class="fading-border-btn">Fading Border Button</button>
+<button class="shaking-btn">Shaking Button</button>
+
+</body>
+</html>
